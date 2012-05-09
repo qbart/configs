@@ -1,0 +1,8 @@
+git config --global user.name "bart"
+git config --global user.email XXX
+git config --global merge.tool meld
+
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.ci commit
+
