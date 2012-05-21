@@ -1,0 +1,3 @@
+sudo update-alternatives --config x-terminal-emulator
+gconftool --type string --set /desktop/gnome/applications/terminal/exec terminator
+
