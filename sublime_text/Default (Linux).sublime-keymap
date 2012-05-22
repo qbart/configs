@@ -649,7 +649,7 @@
 
     //snippets
 	{
-		"keys": ["ctrl+shift+,"], "command": "insert_snippet", "args": {"contents": "<% ${0:${TM_SELECTED_TEXT}} %>"},
+		"keys": ["ctrl+shift+,"], "command": "insert_snippet", "args": {"contents": "<% ${0:${TM_SELECTED_TEXT}} -%>"},
 		"context": [{ "key": "selector", "operator": "equal", "operand": "text.html" }]
 	},
 	{
