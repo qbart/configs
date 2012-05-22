@@ -644,5 +644,16 @@
     },
     { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
         "context": [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
-    }
+    },
+
+
+    //snippets
+	{
+		"keys": ["ctrl+shift+,"], "command": "insert_snippet", "args": {"contents": "<% ${0:${TM_SELECTED_TEXT}} %>"},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.html" }]
+	},
+	{
+		"keys": ["ctrl+shift+."], "command": "insert_snippet", "args": {"contents": "<%= ${0:${TM_SELECTED_TEXT}} %>"},
+		"context": [{ "key": "selector", "operator": "equal", "operand": "text.html" }]
+	}
 ]
