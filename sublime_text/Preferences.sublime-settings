@@ -74,12 +74,14 @@
 		"*.ear",
 		"*.war",
 		"*.sublime-project",
-		"*.sublime-workspace"
+		"*.sublime-workspace",
+		".rvmrc"
 	],
 	"find_selected_text": true,
 	"fold_buttons": false,
 	"folder_exclude_patterns":
 	[
+		".idea",
 		".svn",
 		".git",
 		".hg",
@@ -130,7 +132,7 @@
 	"smart_indent": true,
 	"spell_check": false,
 	"tab_completion": true,
-	"tab_size": 4,
+	"tab_size": 2,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"tree_animation_enabled": false,
