@@ -2,11 +2,10 @@
 	"auto_upgrade_last_run": 1337983970,
 	"installed_packages":
 	[
-		"Clipboard History",
+		"BracketHighlighter",
 		"Package Control",
 		"SideBarEnhancements",
 		"SideBarGit",
-		"SublimeREPL",
-		"Theme - Soda"
+		"SublimeREPL"
 	]
 }
