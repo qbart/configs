@@ -1,3 +1,110 @@
+sudo apt-get install \
+build-essential wget curl libssl-dev \
+subversion git-core gitk mercurial zip vim xclip \
+rar unrar p7zip nmap openssl openvpn \
+tcl-dev tk tk-dev libnss3-1d \
+libxml2 libxml2-dev libxslt1-dev \
+zlib1g zlib1g-dev libssl-dev \
+libreadline6 libreadline6-dev \
+libncurses5 libncurses5-dev \
+lib32ncurses5 lib32stdc++6 \
+libsqlite3-dev libsqlite3-0 libpq-dev sqliteman \
+cpu-checker terminator vim htop meld \
+imagemagick libmagick++4 libmagick++-dev libmagickwand4 libmagickcore4 libmagickcore4-extra libmagickcore-dev libmagickwand-dev \
+inkscape gimp gimp-data-extras gimp-dcraw gimp-gap gimp-gluas gimp-gmic gimp-lensfun gimp-normalmap gimp-resynthesizer gimp-texturize \
+vlc vlc-plugin-pulse mozilla-plugin-vlc vlc-data \
+audacity audacious \
+postgresql-9.1 pgadmin3
+
+===========
+
 sudo update-alternatives --config x-terminal-emulator
 gconftool --type string --set /desktop/gnome/applications/terminal/exec terminator
+
+CHROME
+https://www.google.com/intl/en/chrome/browser/
+
+TEXMAKER
+http://www.xm1math.net/texmaker/download.html#linux
+
+SUBLIME
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+
+SKYPE
+http://www.skype.com/intl/en-gb/get-skype/on-your-computer/linux/downloading.ubuntu64
+
+PIDGIN
+http://www.pidgin.im/download/ubuntu/
+
+RVM
+https://rvm.io/rvm/install/
+echo "source \$HOME/.rvm/scripts/rvm" >> ~/.bashrc
+source ~/.bashrc
+rvm use 1.9.3 --default
+
+JAVA
+https://help.ubuntu.com/community/Java
+http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html
+
+sudo apt-get purge oracle-java7-installer*
+sudo apt-get install ppa-purge
+sudo ppa-purge ppa:eugenesan/java
+sudo apt-get clean
+sudo apt-get update
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+sudo update-java-alternatives -s java-7-oracle
+#.bashrc
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+export JDK_HOME=/usr/lib/jvm/java-7-oracle
+
+ECLIPSE
+http://www.eclipse.org/downloads/
+http://askubuntu.com/questions/80013/how-to-pin-eclipse-to-the-unity-launcher
+http://developer.android.com/sdk/installing/installing-adt.html
+
+ANDROID
+mkdir -p ~/sdk
+https://code.google.com/p/51-android/
+https://help.ubuntu.com/community/KVM/Installation
+@RELOGIN
+run config for eclipse emulator:
+VM: -qemu -m 1024 -enable-kvm
+VM+GPU(SDK >=15): -qemu -m 1024 -enable-kvm -gpu on
+#.bashrc
+PATH=$PATH:$HOME/sdk/android/platform-tools
+
+BALSAMIQ
+http://kb2.adobe.com/cps/853/cpsid_85304.html
+http://builds.balsamiq.com/b/mockups-desktop/MockupsForDesktop64bit.deb
+
+POSTGRESQL
+sudo su postgres
+psql
+CREATE USER bart with password 'secret';
+ALTER USER bart inherit createdb;
+
+NGINX + PASSENGER
+#TODO
+
+
+FFMPEG
+#TODO
+
+=========
+sudo vim /etc/default/grub
+
+#edit followings:
+GRUB_DEFAULT=0
+#GRUB_HIDDEN_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_TIMEOUT=5
+GRUB_CMDLINE_LINUX_DEFAULT=""
+GRUB_CMDLINE_LINUX=""
+...
+
+sudo update-grub
 
