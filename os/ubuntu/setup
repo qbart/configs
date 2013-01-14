@@ -20,7 +20,7 @@ synaptic mplayer
 sudo apt-get update
 
 #media
-sudo apt-get install libxine1-ffmpeg gxine mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 ffmpeg totem-mozilla icedax tagtool easytag id3tool lame nautilus-script-audio-convert libmad0 libjpeg-progs libavcodec53 libavutil51 ubuntu-restricted-extras
+sudo apt-get install libxine1-ffmpeg gxine mencoder flac faac faad sox ffmpeg2theora libmpeg2-4 uudeview libmpeg3-1 mpeg3-utils mpegdemux liba52-dev mpeg2dec vorbis-tools id3v2 mpg321 mpg123 libflac++6 ffmpeg totem-mozilla icedax tagtool easytag id3tool lame nautilus-script-audio-convert libmad0 libjpeg-progs libavcodec53 libavutil51 ubuntu-restricted-extras libavcodec-extra-53
 
 sudo wget http://www.medibuntu.org/sources.list.d/$(lsb_release -cs).list --output-document=/etc/apt/sources.list.d/medibuntu.list
 sudo apt-get -q update
