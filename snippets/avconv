@@ -1,0 +1,9 @@
+#convert image sequence to video with frame rate 25
+avconv -f image2 -i imageSequence%08d.jpg -r 25 -s 3264x2448 -threads 8 ~/Desktop/game1.avi
+
+#concat videos
+avconv -threads 8 -i game0.avi -same_quant game0.mpg
+avconv -threads 8 -i game1.avi -same_quant game1.mpg
+avconv -threads 8 -i game2.avi -same_quant game2.mpg
+cat game0.mpg game1.mpg game2.mpg > game-all.mpg
+avconv -threads 8 -i game-all.mpg -same_quant -same_quant -vcodec libx264 game-all.mp4
