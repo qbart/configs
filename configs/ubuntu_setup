@@ -3,7 +3,7 @@ build-essential wget curl libssl-dev \
 subversion git-core gitk mercurial vim xclip \
 rar unrar zip unzip p7zip unace lha arj cabextract nmap openssl openvpn \
 tcl-dev tk tk-dev libnss3-1d \
-libxml2 libxml2-dev libxslt1-dev \
+libxml2 libxml2-dev libxslt1-dev ia32-libs \
 zlib1g zlib1g-dev libssl-dev \
 libreadline6 libreadline6-dev \
 libncurses5 libncurses5-dev \

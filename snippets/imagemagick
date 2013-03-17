@@ -1,0 +1,2 @@
+# combine sepearated frames into sequence of images (animated sprite)
+montage p_*.png -background white -geometry 128x128 -tile 4x output.png
