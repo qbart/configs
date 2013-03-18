@@ -30,6 +30,10 @@ sudo apt-get install w64codecs libdvdcss2
 
 ===========
 
+#active workspaces (http://askubuntu.com/questions/77160/how-can-i-tell-what-workspace-i-am-in-with-unity)
+sudo apt-get install python-wnck
+http://ppa.launchpad.net/geod/ppa-geod/ubuntu/pool/main/i/indicator-workspaces/
+
 sudo update-alternatives --config x-terminal-emulator
 gconftool --type string --set /desktop/gnome/applications/terminal/exec terminator
 
