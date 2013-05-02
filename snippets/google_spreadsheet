@@ -1,0 +1,2 @@
+# calculate sums based on value in diffrent column
+=ARRAYFORMULA( SUM( COUNTIF( IF($J9:$J200={"submitted", "ready"},1,0)*IF(B9:B200,1,0), 1 ) ))
