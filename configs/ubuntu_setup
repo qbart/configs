@@ -128,3 +128,17 @@ GRUB_CMDLINE_LINUX=""
 
 sudo update-grub
 
+
+http://www.ubuntugeek.com/how-to-install-postgresql-9-2-on-ubuntu-13-04-server.html
+
+# exfat
+apt-add-repository ppa:relan/exfat
+apt-get install fuse-exfat
+
+
+http://software.intel.com/en-us/articles/speeding-up-the-android-emulator-on-intel-architecture#_Toc358213273
+
+
+# ruby
+wget -nv https://raw.github.com/bartlomiejdanek/dotfiles/master/.gemrc -O ~/.gemrc
+
