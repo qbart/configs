@@ -104,7 +104,8 @@ BALSAMIQ
 http://kb2.adobe.com/cps/853/cpsid_85304.html
 http://builds.balsamiq.com/b/mockups-desktop/MockupsForDesktop64bit.deb
 
-POSTGRESQL
+POSTGRESQL #https://wiki.postgresql.org/wiki/Apt
+
 sudo su postgres
 psql
 CREATE USER bart with password 'secret';
