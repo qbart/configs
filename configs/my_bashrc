@@ -1,0 +1,10 @@
+alias ls='ls --color=auto -h'
+alias df='df -h'
+
+PATH=$PATH:$HOME/.rvm/bin
+source $HOME/.rvm/scripts/rvm
+
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+export JDK_HOME=/usr/lib/jvm/java-7-oracle
+PATH=$PATH:$HOME/sdk/android/platform-tools:$HOME/bin
+
