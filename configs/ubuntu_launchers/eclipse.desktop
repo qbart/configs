@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Eclipse IDE
+Comment=
+Exec=/home/bart/apps/eclipse/eclipse
+Icon=/home/bart/apps/eclipse/icon.xpm
+Terminal=false
+Type=Application
+
