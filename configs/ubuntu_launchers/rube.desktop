@@ -2,8 +2,8 @@
 Version=1.0
 Name=RUBE box2d
 Comment=2D physics editor for box2d
-Exec=/home/bart/apps/rube-1.5.2/rube
-Icon=/home/bart/apps/rube-1.5.2/rube.png
+Exec=/home/bart/apps/rube-1.5.3/rube
+Icon=/home/bart/apps/rube-1.5.3/rube.png
 Terminal=false
 Type=Application
 
