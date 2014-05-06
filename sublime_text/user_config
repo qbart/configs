@@ -1,6 +1,7 @@
 {
   "line_numbers": true,
   "auto_complete_commit_on_tab": true,
+  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
   "binary_file_patterns":
   [
     "*.jpg",
@@ -83,7 +84,6 @@
   "match_brackets_square": true,
   "match_brackets_braces": true,
   "match_brackets_angle": true,
-
   "tree_animation_enabled": false,
   "animation_enabled": false,
   "show_full_path": true,
