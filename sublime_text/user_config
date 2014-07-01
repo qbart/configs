@@ -1,6 +1,7 @@
 {
   "line_numbers": true,
   "auto_complete_commit_on_tab": true,
+  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
   "binary_file_patterns":
   [
     "*.jpg",
@@ -76,14 +77,14 @@
   "trim_automatic_white_space": true,
   "trim_trailing_white_space_on_save": true,
   "indent_to_bracket": false,
-  "draw_minimap_border": true,
+	"draw_minimap_border": false,
+	"always_show_minimap_viewport": true,
   "default_line_ending": "unix",
   "match_brackets": true,
   "match_brackets_content": true,
   "match_brackets_square": true,
   "match_brackets_braces": true,
   "match_brackets_angle": true,
-
   "tree_animation_enabled": false,
   "animation_enabled": false,
   "show_full_path": true,

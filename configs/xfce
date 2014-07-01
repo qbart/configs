@@ -1,0 +1,10 @@
+xfconf-query -c xfwm4 -p /general/activate_action -s none
+
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86AudioMute -n -t string -s "amixer set Master toggle"
+
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86AudioLowerVolume -n -t string -s "amixer set Master 5%- unmute"
+
+xfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/XF86AudioRaiseVolume -n -t string -s "amixer set Master 5%+ unmute"
+
+
+http://www.keyxl.com/aaac887/409/Xfce-Window-Manager-keyboard-shortcuts.htm

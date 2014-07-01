@@ -10,5 +10,3 @@ export ANDROID_HOME=$HOME/sdk/android
 export GRADLE_HOME=$HOME/apps/gradle/gradle-1.12
 
 PATH=$PATH:$HOME/sdk/android/platform-tools:$HOME/bin:$GRADLE_HOME/bin
-
-
