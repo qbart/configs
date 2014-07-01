@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Android Studio
+Comment=
+Exec=/home/bart/apps/android-studio/bin/studio.sh
+Icon=/home/bart/apps/android-studio/bin/androidstudio.ico
+Terminal=false
+Type=Application
+
