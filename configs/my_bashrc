@@ -1,12 +1,18 @@
 alias ls='ls --color=auto -h'
 alias df='df -h'
 
+alias ags='apt-cache search'
+alias agi='apt-get install'
+
 PATH=$PATH:$HOME/.rvm/bin
-source $HOME/.rvm/scripts/rvm
+#source $HOME/.rvm/scripts/rvm
 
 export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 export JDK_HOME=/usr/lib/jvm/java-7-oracle
 export ANDROID_HOME=$HOME/sdk/android
 export GRADLE_HOME=$HOME/apps/gradle/gradle-1.12
+export SFML_ROOT=$HOME/sdk/sfml/build-rel
+
 
 PATH=$PATH:$HOME/sdk/android/platform-tools:$HOME/bin:$GRADLE_HOME/bin
+
