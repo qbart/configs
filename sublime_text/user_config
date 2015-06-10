@@ -1,7 +1,7 @@
 {
   "line_numbers": true,
   "auto_complete_commit_on_tab": true,
-  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
+  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
   "binary_file_patterns":
   [
     "*.jpg",
