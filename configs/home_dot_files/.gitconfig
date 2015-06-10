@@ -1,0 +1,15 @@
+[user]
+	name = bart
+	email = xxx@gmail.com
+[merge]
+	tool = meld
+[color]
+	ui = auto
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	d = diff
+	dc = diff --cached
+[push]
+	default = simple
