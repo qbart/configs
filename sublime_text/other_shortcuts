@@ -1,0 +1,77 @@
+# Nice
+alt+o : switch_file h/cpp
+alt+/ : autocomplete
+f12 : go to definition
+f7 : build
+f6 : toggle spell check
+context_menu : context_menu
+
+# Full screen
+f11 : toggle_full_screen
+shift+f11 : toggle_distraction_free
+
+# Go to
+ctrl+r : go to method
+ctrl+g : go to line
+ctrl+; : go to word
+ctrl+shift+r : goto_symbol_in_project
+alt+- : jump_back
+
+# Standard
+ctrl+u : soft_undo
+ctrl+shift+v : paste_and_indent
+
+# Selectionjjf
+ctrl+shift+l : create multiple cursors on selection
+ctrl+shift+space : select text to scope
+ctrl+shift+m : select between brackets
+ctrl+shift+j : select between indentation
+
+# Html tags
+alt+. : close html tag
+alt+shift+w : insert html tag
+
+# Text modifications
+ctrl+/ : toggle comment
+ctrl+shift+/ : toggle block comment
+f9 : sort lines
+ctrl+f9 : sort lines (case sensitive)
+ctrl+j : join lines
+
+# Panes
+ctrl+0 : focus side bar
+ctrl+k, ctrl+up : new pane
+alt+num : select pane by index
+
+# Bookmarks
+ctrl+f2 : toggle bookmark
+ctrl+shift+f2 : clear bookmarks
+f2 : next bookmark
+shift+f2 : prev bookmark
+
+# Marks
+ctrl+k, ctrl+space : set_mark
+ctrl+k, ctrl+g : clear_bookmarks
+ctrl+k, ctrl+a : select_to_mark
+ctrl+k, ctrl+w : delete_to_mark
+ctrl+k, ctrl+x : swap_with_mark
+ctrl+k, ctrl+y : yank
+ctrl+k, ctrl+c : show_at_center
+
+# Folding
+ctrl+shift+[ : fold
+ctrl+shift+] : unfold
+ctrl+k, ctrl+num : fold level
+ctrl+k, ctrl+j : unfold_all
+ctrl+k, ctrl+t : fold_tag_attributes
+
+# Find / Replace
+alt+c : toggle case sensitive
+alt+r : toggle regex
+alt+w : toggle whole word
+alt+a : preserve case
+enter : find next
+shift+enter : find prev
+alt+enter : find all
+ctrl+alt+enter : replace all
+f3 : find_next
