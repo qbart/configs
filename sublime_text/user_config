@@ -1,7 +1,10 @@
 {
-  "line_numbers": true,
+  "always_show_minimap_viewport": true,
+  "animation_enabled": false,
   "auto_complete_commit_on_tab": true,
-  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+  "auto_complete_cycle": true,
+  "auto_indent": true,
+  "auto_find_in_selection": true,
   "binary_file_patterns":
   [
     "*.jpg",
@@ -18,9 +21,13 @@
     "*.jar",
     "*.zip"
   ],
+  "draw_centered": false,
   "bold_folder_labels": true,
   "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+  "default_line_ending": "unix",
+  "detect_indentation": false,
   "drag_text": false,
+  "draw_minimap_border": false,
   "ensure_newline_at_eof_on_save": true,
   "file_exclude_patterns":
   [
@@ -45,6 +52,7 @@
     "*.db",
     "*.sublime-workspace"
   ],
+  "fold_buttons": false,
   "folder_exclude_patterns":
   [
     ".svn",
@@ -52,6 +60,7 @@
     ".hg",
     "CVS",
     ".idea",
+    "tmp",
     ".sass-cache"
   ],
   "font_size": 9,
@@ -59,35 +68,36 @@
   "highlight_modified_tabs": true,
   "ignored_packages":
   [
+    "Markdown",
+    "Pretty JSON",
     "Vintage"
   ],
+  "indent_to_bracket": false,
+  "index_files": true,
+  "line_numbers": true,
+  "match_brackets": true,
+  "match_brackets_angle": true,
+  "match_brackets_braces": true,
+  "match_brackets_content": true,
+  "match_brackets_square": true,
+  "preview_on_click": true,
   "rulers":
   [
     120
   ],
-  "fold_buttons": false,
   "shift_tab_unindent": true,
-  "detect_indentation": true,
-  "auto_indent": true,
+  "show_full_path": true,
   "smart_indent": true,
   "spell_check": true,
   "tab_size": 2,
+  "margin": 4,
   "translate_tabs_to_spaces": true,
-  "use_tab_stops": true,
+  "tree_animation_enabled": false,
   "trim_automatic_white_space": true,
   "trim_trailing_white_space_on_save": true,
-  "indent_to_bracket": false,
-	"draw_minimap_border": false,
-	"always_show_minimap_viewport": true,
-  "default_line_ending": "unix",
-  "match_brackets": true,
-  "match_brackets_content": true,
-  "match_brackets_square": true,
-  "match_brackets_braces": true,
-  "match_brackets_angle": true,
-  "tree_animation_enabled": false,
-  "animation_enabled": false,
-  "show_full_path": true,
-  "preview_on_click": true,
-  "index_files": true
+  "use_tab_stops": true,
+  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+  "draw_indent_guides": true,
+  "indent_guide_options": ["draw_normal", "draw_active"],
+  "remember_full_screen": true
 }
