@@ -1,8 +1,11 @@
 alias ls='ls --color=auto -h'
 alias df='df -h'
-
+alias du='du -h'
 alias apts='apt-cache search'
-alias apti='apt-get install'
+alias apti='sudo apt-get install'
+alias aptu='sudo apt-get update'
+alias aptug='sudo apt-get upgrade'
+alias addppa='sudo add-apt-repository'
 
 PATH=$PATH:$HOME/.rvm/bin
 #source $HOME/.rvm/scripts/rvm
