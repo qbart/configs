@@ -11,5 +11,6 @@
 	ci = commit
 	d = diff
 	dc = diff --cached
+	l = log --decorate=short --graph --oneline
 [push]
 	default = simple
