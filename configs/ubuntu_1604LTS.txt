@@ -1,0 +1,35 @@
+sudo apt install \
+build-essential wget curl libssl-dev \
+ git-core rar unrar zip unzip p7zip unace arj cabextract nmap openssl libnss3-1d \
+libxml2 libxml2-dev libxslt1-dev zlib1g zlib1g-dev libssl-dev \
+libreadline6 libreadline6-dev \
+libncurses5 libncurses5-dev cpu-checker vim htop meld  \
+imagemagick libmagick++6 libmagick++-dev  libmagickcore-dev libmagickwand-dev \
+inkscape vlc vlc-data synaptic 
+
+Gimp:
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
+sudo apt update && sudo apt install gimp gimp-gmic
+
+Git:
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+
+PostgreSQL:
+
+sudo apt install wget ca-certificates
+
+# /etc/apt/sources.list.d/vim 
+deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main
+
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | \
+  sudo apt-key add -
+sudo apt-get update 
+
+sudo apt install libpq-dev postgresql-9.6 postgresql-9.6-pgmemcache postgresql-9.6-postgis-2.3 postgresql-client-9.6 postgresql-contrib-9.6 
+
+
+
+RVM:
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash -s stable
