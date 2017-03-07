@@ -7,6 +7,10 @@ libncurses5 libncurses5-dev cpu-checker vim htop meld  \
 imagemagick libmagick++6 libmagick++-dev  libmagickcore-dev libmagickwand-dev \
 inkscape vlc vlc-data synaptic 
 
+Gif recorder:
+sudo add-apt-repository ppa:peek-developers/stable
+sudo apt update && sudo apt install peek
+
 Gimp:
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
 sudo apt update && sudo apt install gimp gimp-gmic
